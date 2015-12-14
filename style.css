@@ -1,0 +1,96 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top: 50px;
+  margin-bottom: 60px;
+}
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.wrapper {
+  padding: 40px 15px;
+  text-align: center;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+#form input {
+  border: 3px ridge #222;
+  border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 250px;
+    display: block;
+    margin-top:10px;
+}
+#form select {
+  border: 3px ridge #222;
+  border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    display: block;
+    margin-top:10px;
+}
+#form .checkbox{
+
+}
+#form .submit {
+  margin-top:10px;
+  background-color: #222;
+  border: 5px ridge #222;
+  border-radius: 10px;
+  width: 250px;
+  padding-left: 20px;
+  padding-right: 30px;
+  color:white;
+  font-weight:bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+#form .submit:hover {
+  color: #000;
+  background: none;
+}
+#form div.g-recaptcha{
+  margin-top:10px;
+}
+#form label.error {
+  margin-left: 1px;
+  width: auto;
+}

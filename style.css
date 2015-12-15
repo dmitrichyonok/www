@@ -2,7 +2,13 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
+    background: url('dist/att/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
   padding-top: 50px;
   margin-bottom: 60px;
 }
@@ -33,6 +39,7 @@ body > .container {
   margin: 20px 0;
 }
 
+
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -41,6 +48,7 @@ body > .container {
 code {
   font-size: 80%;
 }
+
 
 
 #form input {
@@ -52,8 +60,35 @@ code {
     padding-left: 20px;
     padding-right: 30px;
     width: 250px;
+    height: 50px;
     display: block;
     margin-top:10px;
+}
+#form input.checkbox{
+    border: 5px ridge #222;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 250px;
+    height: 50px;
+    display: block;
+    margin-top:10px;
+}
+#form input.radio{
+    border: 5px ridge #222;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 250px;
+    height: 50px;
+    display: block;
+    margin-top:10px; 
 }
 #form select {
   border: 3px ridge #222;
@@ -93,4 +128,6 @@ code {
 #form label.error {
   margin-left: 1px;
   width: auto;
+  color: red;
+  display: inline;
 }

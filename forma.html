@@ -98,8 +98,32 @@
 
     <footer class="footer">
       <div class="container">
-      <p class="text-muted">Autors : Arturs Dmitričonoks  /  Kontakt informācija: <a href="mailto:dmitrichyonok@inbox.lv">
+      <p class="text-muted">Autors : <!-- Trigger the modal with a button -->
+<button type="button" class="" data-toggle="modal" data-target="#myModal">Arturs Dmitričonoks</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Kontakt informācija:</h4>
+      </div>
+      <div class="modal-body">
+        <p> <a href="mailto:dmitrichyonok@inbox.lv">
     dmitrichyonok@inbox.lv</a></p>
+    <p>Tālrunis : 27035150</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>  
+    </p>
       </div>
     </footer>
 

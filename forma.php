@@ -15,7 +15,7 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
+    <link href="dist/css/style.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -37,13 +37,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="index.php">Home</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="CV.html">CV</a></li>
-            <li class="active"><a href="forma.html">Forma</a></li>
-            <li><a href="gallery.html">Galerija</a></li>
+            <li><a href="CV.php">CV</a></li>
+            <li class="active"><a href="forma.php">Forma</a></li>
+            <li><a href="gallery.php">Galerija</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

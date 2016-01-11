@@ -1,0 +1,30 @@
+Options All -ExecCGI -Indexes -Includes +FollowSymLinks
+
+AddType text/css .css 
+AddType application/x-httpd-php .php .htm .html
+
+
+# Bad Rquest
+ErrorDocument 400 /errors/400.html
+# Authorization Required
+ErrorDocument 401 /errors/401.html
+# Forbidden
+ErrorDocument 403 /errors/403.html
+# Not found
+ErrorDocument 404 /errors/404.html
+# Method Not Allowed
+ErrorDocument 405 /errors/405.html
+# Request Timed Out
+ErrorDocument 408 /errors/408.html
+# Request URI Too Long
+ErrorDocument 414 /errors/414.html
+# Internal Server Error
+ErrorDocument 500 /errors/500.html
+# Not Implemented
+ErrorDocument 501 /errors/501.html
+# Bad Gateway 
+ErrorDocument 502 /errors/502.html
+# Service Unavailable 
+ErrorDocument 503 /errors/503.html
+# Gateway Timeout
+ErrorDocument 504 /errors/504.html

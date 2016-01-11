@@ -15,7 +15,7 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="dist/css/style.css" rel="stylesheet" type="text/css">
+    <link href="dist/css/style.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -40,7 +40,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="CV.php">CV</a></li>
+            <li class="active"><a href="CV.php">CV</a></li>
             <li><a href="forma.php">Forma</a></li>
             <li><a href="gallery.php">Galerija</a></li>
           </ul>
@@ -51,8 +51,23 @@
     <div class="container">
 
       <div class="wrapper">
-        <h1>Laipni lūdzu manā mājaslappā</h1>
-        <p class="lead">Šajā lappusē Jūs varat atrast manu anketu<br> un CV.</p>
+      <h1>Arturs Dmitriconoks</h1>
+        <article>
+        <h1>VAKANCE</h1>
+        <p>programmetājs</p>
+      </article>
+        <article>
+        <h1>DARBA PIEREDZE</h1>
+        <p>C++, html5, MySql, u.t.t. </p>
+      </article>
+        <article>
+        <h1>DZIMTĀ VALODA</h1>
+        <p>krievu/latviešu</p>
+      </article>
+      <article>
+        <h1>Komunikācijas prasmes </h1>
+        <p>labas saskarsmes prasmes, kas iegūtas, strādājot par servisa inženieri spēja prezentēt savas idejas un priekšlikumus </p>
+      </article>
       </div>
 
     </div><!-- /.container -->
@@ -93,7 +108,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
-      <script src="dist/js/jquery.validate.js"></script>
   </body>
 
 </html>

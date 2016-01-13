@@ -37,13 +37,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Home</a>
+          <a class="navbar-brand" href="index">Home</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="CV.php">CV</a></li>
-            <li class="active"><a href="forma.php">Forma</a></li>
-            <li><a href="gallery.php">Galerija</a></li>
+            <li><a href="CV">CV</a></li>
+            <li class="active"><a href="forma">Forma</a></li>
+            <li><a href="gallery">Galerija</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

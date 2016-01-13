@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="lv">
   <head>
@@ -23,6 +24,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+
   </head>
 
   <body>
@@ -35,14 +39,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Home</a>
+          <a class="navbar-brand" href="index">Home</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="CV.php">CV</a></li>
-            <li><a href="forma.php">Forma</a></li>
-            <li><a href="gallery.php">Galerija</a></li>
+            <li><a href="CV">CV</a></li>
+            <li><a href="forma">Forma</a></li>
+            <li><a href="gallery">Galerija</a></li>
+            <li><a href="logintest">logintest</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -53,6 +59,7 @@
       <div class="wrapper">
         <h1>Laipni lūdzu manā mājaslappā</h1>
         <p class="lead">Šajā lappusē Jūs varat atrast manu anketu<br> un CV.</p>
+
       </div>
 
     </div><!-- /.container -->

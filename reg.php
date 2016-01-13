@@ -15,13 +15,14 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="dist/css/style.css" rel="stylesheet">
+    <link href="dist/css/style.css" rel="stylesheet" >
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css">
   </head>
 
   <body>
@@ -41,7 +42,7 @@
           <ul class="nav navbar-nav">
             <li><a href="CV">CV</a></li>
             <li><a href="forma">Forma</a></li>
-            <li class="active"><a href="gallery">Galerija</a></li>
+            <li><a href="gallery">Galerija</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -49,10 +50,25 @@
 
     <div class="container">
 
-      <div>
-        <a href="lightbox2/img/m4.jpg" data-lightbox="bmw" data-title="BMW M4"><img class="image" src="lightbox2/img/thumb-M4.jpg" alt="Image #1" /></a>
-        <a href="lightbox2/img/E39M5.jpg" data-lightbox="bmw" data-title="BMW M5"><img class="image" src="lightbox2/img/thumb-E39M5.jpg" alt="E39M5" /></a>
-        <a href="lightbox2/img/krisa.jpg" data-lightbox="bmw" data-title="krisa"><img class="image" src="lightbox2/img/thumb-krisa.jpg" alt="krisa" /></a>
+      <div class="cbus">
+        <h2>Reģistrācija</h2>
+    <form id="form" action="save_user" method="post">
+    <!--**** save_user.php - это адрес обработчика.  То есть, после нажатия на кнопку "Зарегистрироваться", данные из полей  отправятся на страничку save_user.php методом "post" ***** -->
+<p>
+    <input name="login" type="text" size="15" maxlength="15" placeholder="Lietotājvārds">
+    </p>
+<!--**** В текстовое поле (name="login" type="text") пользователь вводит свой логин ***** -->
+<p>
+    <input name="password" type="password" size="15" maxlength="15" placeholder="Parole">
+    </p>
+<!--**** В поле для паролей (name="password" type="password") пользователь вводит свой пароль ***** --> 
+<p>
+    <input class="submit" type="submit" name="submit" value="Reģistrēties">
+<!--**** Кнопочка (type="submit") отправляет данные на страничку save_user.php ***** --> 
+</p>
+</form>
+
+
       </div>
 
     </div><!-- /.container -->
@@ -92,14 +108,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!--  <script scr="dist/js/jquery-1.11.3.min.js"></script> -->
-  <script scr="disc/js/script.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
-    
-        
-    <!--<script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>-->
-    <script src="lightbox2/dist/js/lightbox.js"></script>
-
+      <script src="dist/js/jquery.validate.js"></script>
   </body>
 
 </html>

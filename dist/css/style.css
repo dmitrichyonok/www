@@ -4,13 +4,14 @@ html {
 }
 
 body {
-    background: url('dist/att/background.jpg') no-repeat center center fixed;
+    background: url('../../dist/att/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
   padding-top: 50px;
   margin-bottom: 60px;
+  overflow: hidden;
 }
 .container {
   width: auto;
@@ -130,4 +131,8 @@ code {
   width: auto;
   color: red;
   display: inline;
+}
+
+#hidden{
+  
 }
